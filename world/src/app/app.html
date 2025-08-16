@@ -1,0 +1,59 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+  * {
+    font-family: "Oswald", sans-serif;
+  }
+
+  div {
+    width: 100%; 
+    justify-content: center; 
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+  }
+
+  p {
+    color: #2b1a08;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    img {
+      border-radius: 500px;
+      width: 300px;
+    }
+  }
+
+</style>
+
+<div>
+  <div class="header">
+    <div class="title" style="display: flex; flex-direction: row; gap: 5px;">
+      <img src="/images/cat-svgrepo-com.svg" style="height: 45px;">
+      <h1 style="text-align: center; color: #4f3316;">Gatos</h1>
+      <img src="/images/cat-svgrepo-com.svg" style="height: 45px;">
+    </div>
+    <img src="https://t3.ftcdn.net/jpg/02/36/99/22/360_F_236992283_sNOxCVQeFLd5pdqaKGh8DRGMZy7P4XKm.jpg" style="border-radius: 50px; margin: auto;">
+  </div>
+  
+  <div>
+    <p>Este site é um tributo à todos os gatos do mundo. O ser vivo perfeito, sem falhas (Exceto a Olívia Filipa).</p>
+    <h3>A Olívia Filipa em questão:</h3>
+    <div class="images">
+      <img src="/images/1000214681.jpg">
+      <img src="/images/20250322_165426.jpg">
+      <img src="/images/1000215506.jpg">
+    </div>
+  </div>
+</div>
+
+
+<router-outlet />
